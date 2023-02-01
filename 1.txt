@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int choc1,choc2;
+    cout<<"Enter the price of choc1 and choc2"<<endl;
+    cin>>choc1,choc2;
+    if(choc1>choc2)
+    {
+        cout<<"choc1 is cheaper"<<endl;
+    }
+         if(choc1>choc2)
+        {
+        cout<<"choc2 is cheaper"<<endl;
+        }
+        else if(choc1==choc2)
+        {
+            cout<<"you can take any chocolate"<<endl;
+        }
+        
+    }
