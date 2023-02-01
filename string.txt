@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+int main() {
+  string str1 = "Hello";
+  string str2 = " World";
+  string str = "Hello World!";
+  string str3 = str1 + str2;
+  cout << "str1: " << str1 << endl;
+  cout << "str2: " << str2 << endl;
+  cout << "str3 (concatenated): " << str3 << endl;
+  cout << "Length of str3: " << str3.length() << endl;
+  cout << "Character at index 5 in str3: " << str3[0] << endl;
+ str1.replace(0, 1 ,"I");
+  cout << "str1 after replace: " << str1 << endl;
+    cout << "Original string: " << str <<endl;
+    reverse(str.begin(), str.end());
+    cout << "Reversed string: " << str << endl;
+    str.push_back('-');
+    str.push_back('-');
+    str.push_back('>');
+    cout << "String after push_back: " << str << endl;
+    string line;
+    cout << "Enter a string: ";
+    getline(cin, line);
+    cout << "The string entered using getline is: " << line << endl;
+  return 0;
+}
